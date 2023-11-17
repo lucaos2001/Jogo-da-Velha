@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Icone/icone.png" />
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <hr size="2" width="50%" />
+    <div id="board" class="board">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+    <div id="message" class="message">É a vez do jogador X</div>
+    <div id="playerXScore">Jogador X: 0</div>
+    <div id="playerOScore">Jogador O: 0</div>
+    <button id="reset" class="reset-button">Reiniciar Jogo</button>
+
+    <audio id="xSound" src="Audios/Jogada.mp3"></audio>
+    <audio id="oSound" src="Audios/Jogada.mp3"></audio>
+    <audio id="winSound" src="Audios/Vitoria.mp3"></audio>
+    <audio id="tieSound" src="Audios/Empate.mp3"></audio> 
+
+
+    <script src="script.js"></script>
+</body>
+</html>
